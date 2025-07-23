@@ -8,10 +8,12 @@ const montserrat = Montserrat({
 
 export const metadata = {
   title: "Veniselle | Avrai il mondo ai tuoi piedi!",
-  description: "Crema efficace contro vene varicose e angiomi stellari. Ripristina la leggerezza delle gambe in 3 settimane. Sicuro e naturale!",
+  description:
+    "Crema efficace contro vene varicose e angiomi stellari. Ripristina la leggerezza delle gambe in 3 settimane. Sicuro e naturale!",
   openGraph: {
     title: "Veniselle - Soluzione definitiva per vene varicose e gambe pesanti",
-    description: "Elimina vene varicose, angiomi stellari e quella fastidiosa sensazione di pesantezza alle gambe con la potente formula naturale di Veniselle.",
+    description:
+      "Elimina vene varicose, angiomi stellari e quella fastidiosa sensazione di pesantezza alle gambe con la potente formula naturale di Veniselle.",
     images: [
       {
         url: "URL_IMMAGINE_VENISELLE_IT", // Inserisci URL reale del prodotto
@@ -37,15 +39,18 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap"
           rel="stylesheet"
         />
-        
-        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16760579148"></script>
-        <script>
-          window.dataLayer = window.dataLayer || [];
-          function gtag(){dataLayer.push(arguments);}
-          gtag('js', new Date());
 
-          gtag('config', 'AW-16760579148');
-        </script>
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16760579148"></script>
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'AW-16760579148');
+    `,
+          }}
+        ></script>
       </head>
       <body className={`${montserrat.variable} `} suppressHydrationWarning>
         {children}
