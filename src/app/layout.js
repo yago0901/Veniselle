@@ -37,6 +37,15 @@ export default function RootLayout({ children }) {
           href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,900;1,400;1,700&display=swap"
           rel="stylesheet"
         />
+        
+        <script async src="https://www.googletagmanager.com/gtag/js?id=AW-16760579148"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'AW-16760579148');
+        </script>
       </head>
       <body className={`${montserrat.variable} `} suppressHydrationWarning>
         {children}
