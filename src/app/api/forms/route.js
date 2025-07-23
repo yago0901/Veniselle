@@ -10,7 +10,7 @@ export async function POST(req) {
     const apiKey = "335bbd07abab0a0b3b92c276a876499e";
     const offerId = 33737;
     const countryCode = "IT";
-    const baseUrl = "https://weight-berry-omega.vercel.app/";
+    const baseUrl = "https://veniselle.vercel.app/";
     const price = 49;
     const referrer = body.referrer || baseUrl;
 

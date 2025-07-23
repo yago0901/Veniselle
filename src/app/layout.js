@@ -7,23 +7,21 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Pest Reject | Libera la tua casa da insetti e roditori senza veleni",
-  description:
-    "Soluzione ecologica a ultrasuoni per eliminare scarafaggi, zanzare, topi e altri parassiti. Sicuro per bambini e animali domestici - basta collegare e dimenticare!",
+  title: "Veniselle | Avrai il mondo ai tuoi piedi!",
+  description: "Crema efficace contro vene varicose e angiomi stellari. Ripristina la leggerezza delle gambe in 3 settimane. Sicuro e naturale!",
   openGraph: {
-    title: "Pest Reject: Repellente ad Ultrasuoni per Insetti e Topi",
-    description:
-      "Addio a scarafaggi, formiche e roditori con la tecnologia a ultrasuoni. Senza prodotti chimici, senza odori, efficace in 24 ore!",
+    title: "Veniselle - Soluzione definitiva per vene varicose e gambe pesanti",
+    description: "Elimina vene varicose, angiomi stellari e quella fastidiosa sensazione di pesantezza alle gambe con la potente formula naturale di Veniselle.",
     images: [
       {
-        url: "URL_IMMAGINE_PEST_REJECT_IT", // Inserisci URL reale
+        url: "URL_IMMAGINE_VENISELLE_IT", // Inserisci URL reale del prodotto
         width: 1200,
         height: 630,
       },
     ],
-    url: "https://pestreject.it", // Usa il tuo dominio .it
+    url: "https://veniselle.vercel.app/", // Usa il tuo dominio
     type: "website",
-    locale: "it_IT", // Impostato per l'Italia
+    locale: "it_IT",
   },
 };
 
