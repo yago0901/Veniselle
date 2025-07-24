@@ -1,10 +1,10 @@
-export default function Statistics() {
+export default function Statistics({scrollToForm}) {
   return (
     <section className="s-statistic">
       <section className="stat-white">
         <div className="container">
           <div className="b-title text-uppercase text-center">
-            <div>Statistiche:</div> Una donna su tre è affetta da vene varicose
+            <div>Statistiche:</div> Molte donne cercano soluzioni per gambe più leggere
           </div>
           <div className="b-subtitle text-center m-pink">
             La vita è piena di grandi gioie e piccole grazie dal cielo:
@@ -33,14 +33,15 @@ export default function Statistics() {
             ))}
           </div>
           <div className="large-title text-center text-uppercase">Ma, con le VENE VARICOSE,</div>
-          <div className="b-title text-center text-uppercase">si perde il gusto della vita</div>
+          <div className="b-title text-center text-uppercase">può influenzare il tuo benessere quotidiano</div>
           <div className="stat-content">
             <div className="stat-left">
               <img src="/img/photo.png" alt="Statistics" />
               <div className="b-title text-uppercase">
                 <div className="m-white">
-                  Quasi il 35% delle donne tra i 18 e i 75 anni soffrono di vene varicose alle gambe.
+                  Molte donne cercano sollievo per gambe stanche e pesanti.
                 </div>
+                <a className="btn" onClick={scrollToForm}>Acquista ora</a>
               </div>
             </div>
             <div className="stat-right">
@@ -53,7 +54,7 @@ export default function Statistics() {
                   { img: "factor.jpg", text: "gravidanza e parto" },
                   {
                     img: "factor2.jpg",
-                    text: "avere un lavoro in cui si trascorre molto tempo in piedi (addetti alle vendite, parrucchieri, ecc.)",
+                    text: "molto tempo in piedi",
                   },
                   { img: "factor3.jpg", text: "età" },
                   { img: "factor4.jpg", text: "scarpe strette e tacchi alti" },

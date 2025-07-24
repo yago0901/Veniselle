@@ -88,6 +88,11 @@ p {
   text-transform: uppercase;
 }
 
+.text-white {
+  color: white;
+  font-size: 16px;
+}
+
 svg {
   display: inline-block;
   vertical-align: text-bottom;
@@ -577,6 +582,9 @@ svg path {
 .s-reviews .b-title {
   color: #fff;
   font-size: 18px;
+}
+.disclaimer {
+  margin-top: 2rem;
 }
 .b-puzzle {
   position: relative;

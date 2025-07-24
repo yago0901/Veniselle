@@ -71,6 +71,9 @@ export default function Reviews() {
               </div>
             </div>
           </div>
+          <div className='text-center disclaimer'>
+            <h1>Veniselle è un prodotto cosmetico. I risultati variano da persona a persona. Non sostituisce una consulenza medica. In caso di problemi venosi, consultare un flebologo.</h1>
+          </div>
         </div>
       </div>
     </section>

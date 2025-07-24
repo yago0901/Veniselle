@@ -1,4 +1,4 @@
-export default function Specialist() {
+export default function Specialist({scrollToForm}) {
   return (
     <section className="s-specialist">
       <div className="container">
@@ -16,12 +16,10 @@ export default function Specialist() {
             <p>
               {" "}
               Quello che mi piace di Veniselle è che un tubo contiene le giuste proporzioni di tutti i componenti
-              stimolanti del sistema venoso noti alla scienza. Questa potente formula può contrastare rapidamente i
-              segni delle vene varicose al primo e al secondo stadio e alleviarne tutte le manifestazioni visibili:
-              varici, urti, angiomi stellari e vene ingrossate sulle gambe, creando le condizioni per tornare ad avere
-              una vita normale. Secondo i risultati delle ricerche condotte, Veniselle è il 40% più efficace dei suoi
-              analoghi nel trattamento delle vene varicose e nella prevenzione di trombosi e tromboflebite.{" "}
+              stimolanti del sistema venoso noti alla scienza. Questa formula può aiutare a migliorare il comfort delle gambe al primo e al secondo stadio e contribuire a migliorare il comfort e la leggerezza delle gambe, creando le condizioni per tornare ad avere
+              una vita normale. Formulato con ingredienti selezionati per supportare il benessere delle gambe e nella favorisce una circolazione sana.{" "}
             </p>
+            <a className="btn" onClick={scrollToForm}>Acquista ora</a>
           </div>
         </div>
       </div>

@@ -6,20 +6,25 @@ export default function Symptoms() {
           <div> Sintomi delle vene varicose </div>
         </div>
         <div className="b-stages">
-          <div className="b-stage" >
+          <div className="b-stage">
             <img src="/img/stage.png" />
-            <div className="text-uppercase"> primo stadio </div> Malessere, stanchezza, sensazione di gambe pesanti la sera,
-            angiomi stellari sulla pelle
+            <div className="text-uppercase"></div>
+            <p className="text-white">
+              Malessere, stanchezza, sensazione di gambe pesanti la sera, angiomi stellari sulla pelle
+            </p>
           </div>
           <div className="b-stage">
             <img src="/img/stage2.png" />
-            <div className="text-uppercase"> secondo stadio </div> vene ingrossate, noduli sulle gambe
+            <div className="text-uppercase"> </div>
+            <p className="text-white">vene ingrossate, noduli sulle gambe</p>
           </div>
-          <div className="b-stage" >
+          <div className="b-stage">
             <img src="/img/stage3.png" />
-            <div className="text-uppercase"> terzo stadio </div> indurimento delle varici, sviluppo di nuove varici,
-            infiammazione e tendenza al sanguinamento, stinchi e caviglie gonfie. Al terzo stadio, l’intervento
-            chirurgico è inevitabile.
+            <div className="text-uppercase"></div>
+            <p className="text-white">
+              indurimento delle varici, sviluppo di nuove varici, infiammazione e tendenza al sanguinamento, stinchi e
+              caviglie gonfie. Consigliato per favorire il benessere delle gambe in diverse fasi.
+            </p>
           </div>
         </div>
       </div>

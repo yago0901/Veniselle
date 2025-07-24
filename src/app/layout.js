@@ -7,7 +7,7 @@ const montserrat = Montserrat({
 });
 
 export const metadata = {
-  title: "Veniselle | Avrai il mondo ai tuoi piedi!",
+  title: "Veniselle | scopri il piacere di gambe più leggere",
   description:
     "Crema efficace contro vene varicose e angiomi stellari. Ripristina la leggerezza delle gambe in 3 settimane. Sicuro e naturale!",
   openGraph: {

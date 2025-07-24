@@ -20,7 +20,7 @@ export default function Composition() {
           </div>
           <div className="b-component" >
             <img src="img/comp3.jpg" />
-            <div className="m-pink"> Estratto d’ortica </div> Riduce le varici, elimina gli angiomi stellari
+            <div className="m-pink"> Estratto d’ortica </div> Riduce le varici, aiuta a migliorare l'aspetto della pelle
           </div>
           <div className="b-component" >
             <img src="img/comp4.jpg" />
@@ -28,7 +28,7 @@ export default function Composition() {
           </div>
           <div className="b-component" >
             <img src="img/comp5.jpg" />
-            <div className="m-pink"> Estratto di assenzio </div> Previene la formazione di trombi, scioglie le placche
+            <div className="m-pink"> Estratto di assenzio </div> Favorisce una sana circolazione, scioglie le placche
             vascolari
           </div>
         </div>

@@ -1,4 +1,4 @@
-export default function Hero() {
+export default function Hero({scrollToForm}) {
   return (
     <section className="s-top">
       <section className="top-white">
@@ -22,18 +22,18 @@ export default function Hero() {
           <div className="top-list">
             <div>
               <span><img src="/img/icon.png" alt="Icon" /></span>
-              <span>senza vene varicose</span>
+              <span>per gambe più leggere e confortevoli</span>
             </div>
             <div>
               <span><img src="/img/icon2.png" alt="Icon" /></span>
-              <span>senza angiomi stellari</span>
+              <span>per una pelle più uniforme</span>
             </div>
             <div>
               <span><img src="/img/icon3.png" alt="Icon" /></span>
               <span>senza dolore, affaticamento e sensazione di pesantezza nelle gambe</span>
             </div>
           </div>
-          <a className="btn" href="#order">Acquista ora</a>
+          <a className="btn" onClick={scrollToForm}>Acquista ora</a>
         </div>
       </section>
     </section>

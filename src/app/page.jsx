@@ -1,31 +1,40 @@
 "use client";
-import Actions from '@/components/Actions';
+
+import { useRef } from "react";
+import Actions from "@/components/Actions";
+import Hero from "@/components/Hero";
+import Statistics from "@/components/Statistics";
+import Symptoms from "@/components/Symptoms";
+import Composition from "@/components/Composition";
+import Adding from "@/components/Adding";
+import Specialist from "@/components/Specialist";
+import Faq from "@/components/Faq";
+import Reviews from "@/components/Reviews";
+import Bottom from "@/components/Bottom";
+import Footer from "@/components/Footer";
 import "./globals.css";
-import Hero from '@/components/Hero';
-import Statistics from '@/components/Statistics';
-import Symptoms from '@/components/Symptoms';
-import Composition from '@/components/Composition';
-import Adding from '@/components/Adding';
-import Specialist from '@/components/Specialist';
-import Faq from '@/components/Faq';
-import Reviews from '@/components/Reviews';
-import Bottom from '@/components/Bottom';
-import Footer from '@/components/Footer';
 
 const App = () => {
+  const formRef = useRef(null);
+
+  const scrollToForm = () => {
+    formRef.current?.scrollIntoView({ behavior: "smooth", block: "start" });
+  };
 
   return (
-    <div >
-      <Hero />
-      <Statistics />
+    <div>
+      <Hero scrollToForm={scrollToForm} />
+      <Statistics scrollToForm={scrollToForm} />
       <Symptoms />
-      <Actions />
+      <Actions scrollToForm={scrollToForm} />
       <Composition />
       <Adding />
-      <Specialist />
+      <Specialist scrollToForm={scrollToForm} />
       <Faq />
       <Reviews />
-      <Bottom />
+      <div ref={formRef}>
+        <Bottom />
+      </div>
       <Footer />
     </div>
   );

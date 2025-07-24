@@ -80,13 +80,13 @@ export default function Bottom() {
                 <span>
                   <img src="img/icon.png" />
                 </span>
-                <span> senza vene varicose </span>
+                <span> per gambe più leggere e confortevoli </span>
               </div>
               <div>
                 <span>
                   <img src="img/icon2.png" />
                 </span>
-                <span> senza angiomi stellari </span>
+                <span> per una pelle più uniforme </span>
               </div>
               <div>
                 <span>
