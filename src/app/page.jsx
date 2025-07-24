@@ -13,6 +13,7 @@ import Reviews from "@/components/Reviews";
 import Bottom from "@/components/Bottom";
 import Footer from "@/components/Footer";
 import "./globals.css";
+import CookieBanner from '@/components/cookie';
 
 const App = () => {
   const formRef = useRef(null);
@@ -22,7 +23,7 @@ const App = () => {
   };
 
   return (
-    <div>
+    <div style={{position: 'relative'}}>
       <Hero scrollToForm={scrollToForm} />
       <Statistics scrollToForm={scrollToForm} />
       <Symptoms />
@@ -36,6 +37,7 @@ const App = () => {
         <Bottom />
       </div>
       <Footer />
+      <CookieBanner/>
     </div>
   );
 };
