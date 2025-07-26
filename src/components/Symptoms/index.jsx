@@ -3,27 +3,27 @@ export default function Symptoms() {
     <section className="s-symptoms">
       <div className="container">
         <div className="b-title text-uppercase text-center">
-          <div> Sintomi delle vene varicose </div>
+          <div>Sensazioni comuni alle gambe durante il giorno</div>
+          <p>Quando le tue gambe hanno bisogno di cure:</p>
         </div>
         <div className="b-stages">
           <div className="b-stage">
             <img src="/img/stage.png" />
             <div className="text-uppercase"></div>
             <p className="text-white">
-              Malessere, stanchezza, sensazione di gambe pesanti la sera, angiomi stellari sulla pelle
+               Al risveglio dopo una notte agitata
             </p>
           </div>
           <div className="b-stage">
             <img src="/img/stage2.png" />
             <div className="text-uppercase"> </div>
-            <p className="text-white">vene ingrossate, noduli sulle gambe</p>
+            <p className="text-white">A metà giornata, quando la routine pesa</p>
           </div>
           <div className="b-stage">
             <img src="/img/stage3.png" />
             <div className="text-uppercase"></div>
             <p className="text-white">
-              indurimento delle varici, sviluppo di nuove varici, infiammazione e tendenza al sanguinamento, stinchi e
-              caviglie gonfie. Consigliato per favorire il benessere delle gambe in diverse fasi.
+              Alla fine del pomeriggio, è ora di rilassarsi
             </p>
           </div>
         </div>

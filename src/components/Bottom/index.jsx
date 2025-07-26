@@ -64,7 +64,7 @@ export default function Bottom() {
           <div className="main-title text-uppercase m-pink"> Veniselle </div>
           <div className="main-subtitle text-uppercase">
             {" "}
-            la migliore amica <br className="d-mobile" /> delle tue gambe!{" "}
+            Il tuo alleato <br className="d-mobile" /> per gambe rinvigorite{" "}
           </div>
         </div>
       </section>
@@ -73,32 +73,32 @@ export default function Bottom() {
           <img className="prod-bottom" src="img/prod.png" />
           <div className="bottom-center">
             <div className="b-title">
-              <div> Goditi la tua vita appieno: </div>
+              <div> Elenco dei vantaggi: </div>
             </div>
             <div className="top-list">
               <div>
                 <span>
                   <img src="img/icon.png" />
                 </span>
-                <span> per gambe più leggere e confortevoli </span>
+                <span> Per una piacevole sensazione di leggerezza </span>
               </div>
               <div>
                 <span>
                   <img src="img/icon2.png" />
                 </span>
-                <span> per una pelle più uniforme </span>
+                <span> Per aiutare a uniformare l'aspetto della pelle </span>
               </div>
               <div>
                 <span>
                   <img src="img/icon3.png" />
                 </span>
-                <span> senza dolore, affaticamento e sensazione di pesantezza nelle gambe </span>
+                <span> Per alleviare la sensazione di stanchezza </span>
               </div>
             </div>
           </div>
           <div className="b-order">
             <div className="order-title text-uppercase">
-              <b> Offerta speciale: SCONTO DEL 50% </b> FINO ALLA FINE DELLA SETTIMANA{" "}
+              <b> Offerta speciale: SCONTO DEL 50% </b> TEMPO LIMITATO{" "}
             </div>
             <div className="b-prices text-center">
               <div className="old-price"> 98 EUR </div>
@@ -130,8 +130,7 @@ export default function Bottom() {
                 <button className="btn js_submit" type="submit"> Acquista con lo sconto </button>
                 <div className="b-note3">
                   {" "}
-                  *Si prega di notare che la tariffa locale dell'Iva puo' variare a seconda del paese in cui si ordinano
-                  i nostri prodotti.{" "}
+                  Si prega di notare che la tariffa locale dell'Iva puo' variare a seconda del paese in cui si ordinano i nostri prodotti.{" "}
                 </div>
               </form>
             </div>

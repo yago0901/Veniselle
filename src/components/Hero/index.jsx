@@ -9,7 +9,7 @@ export default function Hero({scrollToForm}) {
           </picture>
           <div className="main-title m-pink text-uppercase">Veniselle</div>
           <div className="main-subtitle text-uppercase">
-            avrai il mondo <br className="d-mobile" /> ai tuoi piedi!
+            Gambe leggere, <br className="d-mobile" /> vita più leggera!
           </div>
         </div>
       </section>
@@ -17,20 +17,20 @@ export default function Hero({scrollToForm}) {
         <div className="container">
           <img className="prod-top" src="/img/prod.png" alt="Product" />
           <div className="b-title">
-            <div>Goditi la tua vita appieno:</div>
+            <div>Scopri il comfort che le tue gambe meritano:</div>
           </div>
           <div className="top-list">
             <div>
               <span><img src="/img/icon.png" alt="Icon" /></span>
-              <span>per gambe più leggere e confortevoli</span>
+              <span>Sensazione rinfrescante e rivitalizzante</span>
             </div>
             <div>
               <span><img src="/img/icon2.png" alt="Icon" /></span>
-              <span>per una pelle più uniforme</span>
+              <span>Cura quotidiana per gambe stanche</span>
             </div>
             <div>
               <span><img src="/img/icon3.png" alt="Icon" /></span>
-              <span>senza dolore, affaticamento e sensazione di pesantezza nelle gambe</span>
+              <span>Texture morbida che scivola sulla pelle</span>
             </div>
           </div>
           <a className="btn" onClick={scrollToForm}>Acquista ora</a>

@@ -8,41 +8,33 @@ export default function Faq() {
         <div className="b-accordion">
           <div className="acc-inner">
             <details className="acc-item">
-              <summary className="acc-title"> Posso combinare Veniselle con altri tonici per le vene? </summary>
-              <div className="acc-text"> Sì. La crema Veniselle è compatibile con tutti i prodotti che tonificano le vene:
-                pomate, pillole, capsule e integratori. Nelle fasi successive del disturbo, Veniselle aumenta l'effetto
-                del trattamento. </div>
+              <summary className="acc-title"> Posso usare Veniselle con altri prodotti per le gambe? </summary>
+              <div className="acc-text"> Sì. Veniselle può essere combinato con altri cosmetici per la cura quotidiana delle gambe. Si consiglia di attendere alcuni minuti tra un'applicazione e l'altra per un migliore assorbimento. </div>
             </details>
             
             <details className="acc-item">
-              <summary className="acc-title"> Posso mettere Veniselle prima di indossare le calze contenitive? </summary>
-              <div className="acc-text"> Sì. La crema amplifica gli effetti delle calze a compressione e non lascia macchie
-                appiccicose o oleose. </div>
+              <summary className="acc-title"> Posso applicare Veniselle prima di indossare le calze? </summary>
+              <div className="acc-text"> Sì. La nostra formula a rapido assorbimento non lascia residui e dona una piacevole sensazione di freschezza sotto i calzini. </div>
             </details>
             
             <details className="acc-item">
-              <summary className="acc-title"> Posso usare Veniselle in gravidanza o in allattamento? </summary>
-              <div className="acc-text"> No. Non si dovrebbe usare Veniselle durante la gravidanza o l'allattamento, a causa
-                del suo effetto attivo e potente. Ma dopo aver smesso di allattare, questa crema ti aiuterà a sbarazzarti
-                dei potenziali primi segni di vene varicose rapidamente e a prevenirne l'ulteriore sviluppo. </div>
+              <summary className="acc-title"> Veniselle è sicuro ? </summary>
+              <div className="acc-text"> Sì, è sicuro, ma per qualsiasi attività diversa dalla normalità consigliamo di consultare un medico. </div>
             </details>
             
             <details className="acc-item">
-              <summary className="acc-title"> Posso usare Veniselle per prevenire le vene varicose? </summary>
-              <div className="acc-text"> Sì. La crema può essere un buon metodo di prevenzione in questi casi: predisposizione
-                genetica, lavoro in piedi, eccesso di peso, preparazione alla gravidanza, ecc. </div>
+              <summary className="acc-title"> Veniselle può essere utilizzato nella routine quotidiana di cura della pelle? </summary>
+              <div className="acc-text"> Sì. Molti utenti integrano Veniselle nella loro routine quotidiana di cura delle gambe per mantenere una sensazione di comfort e leggerezza. </div>
             </details>
             
             <details className="acc-item">
-              <summary className="acc-title"> Veniselle è adatto anche agli uomini? </summary>
-              <div className="acc-text"> Sì, questa crema è adatta anche agli uomini. </div>
+              <summary className="acc-title"> Veniselle è adatto agli uomini? </summary>
+              <div className="acc-text"> Sì. La formula è stata sviluppata per tutti i tipi di pelle e può essere utilizzata sia da uomini che da donne. </div>
             </details>
             
             <details className="acc-item">
-              <summary className="acc-title"> Dove posso comprare Veniselle? </summary>
-              <div className="acc-text"> È possibile ordinare Veniselle solo qui, sul sito ufficiale del produttore. Se
-                deciderai di acquistarlo da reti di vendita al dettaglio o da altri siti web, sarete ad alto rischio di
-                ricevere un prodotto contraffatto. </div>
+              <summary className="acc-title"> Dove posso acquistare Veniselle originale? </summary>
+              <div className="acc-text"> Il prodotto originale è disponibile esclusivamente sul nostro sito web per garantire la qualità e la provenienza. </div>
             </details>
           </div>
         </div>

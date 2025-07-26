@@ -6,19 +6,17 @@ export default function Adding() {
           <b> Altri ingredienti coadiuvanti </b>
         </div>
         <div className="adding-components">
-          <div className="add-comp" >
+          <div className="add-comp">
             <img src="img/comp6.jpg" />
-            <div> Mentolo </div> Rinfresca la pelle e dona una sensazione di benessere La sensazione di freschezza aiuta
-            il corpo a sciogliere i grassi e a combattere il gonfiore
+            <div> Mentolo </div> Dona una sensazione rinfrescante di immediato sollievo e benessere
           </div>
-          <div className="add-comp" >
+          <div className="add-comp">
             <img src="img/comp7.jpg" />
-            <div> Caffeina </div> Stimola la circolazione cutanea, migliora l’elasticità della pelle
+            <div> Caffeina </div> Aiuta l'aspetto della pelle, rendendola più sana
           </div>
-          <div className="add-comp" >
+          <div className="add-comp">
             <img src="img/comp8.jpg" />
-            <div> Pantenolo </div> Riduce l’infiammazione, favorisce l’assorbimento dei lividi e la cicatrizzazione dei
-            tagli sulle gambe
+            <div> Pantenolo </div> Contribuisce alla morbidezza e all'idratazione della pelle
           </div>
         </div>
         <div className="b-vitamins">
@@ -29,7 +27,7 @@ export default function Adding() {
           </b>
           <img src="img/vitamins.png" />
         </div>
-        <div className="b-note2"> Rafforzano e tonificano la pelle e i vasi sanguigni, decongestionandoli </div>
+        <div className="b-note2"> Formula arricchita che aiuta a mantenere la pelle dall'aspetto sano</div>
       </div>
     </section>
   );
